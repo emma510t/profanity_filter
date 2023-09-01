@@ -1,0 +1,57 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(7, 15, 29);
+}
+main {
+  max-width: 500px;
+  margin: 5rem auto;
+  background-color: lightpink;
+  padding: 3rem 4rem;
+  border-radius: 1rem;
+  box-shadow: 8px 12px cornflowerblue;
+  border-style: solid;
+  border-width: 6px;
+  border-color: aliceblue;
+}
+
+span.clicked {
+  background-color: cornflowerblue;
+  color: aliceblue;
+}
+
+h1 {
+  font-size: 1.6rem;
+  color: aliceblue;
+  font-weight: 900;
+  text-shadow: 2px 3px cornflowerblue;
+}
+
+p {
+  padding: 1.6rem 0 2.2rem;
+  font-size: 1.1rem;
+  color: rgb(7, 15, 29);
+}
+
+button {
+  border-style: solid;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+  border-width: 3px;
+  cursor: pointer;
+  font-weight: 600;
+  border-color: aliceblue;
+  color: aliceblue;
+  background-color: cornflowerblue;
+  box-shadow: 2px 3px cornflowerblue;
+}
+
+button:hover {
+  border-color: cornflowerblue;
+  color: cornflowerblue;
+  background-color: aliceblue;
+  box-shadow: 2px 3px aliceblue;
+}
